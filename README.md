@@ -1,3 +1,5 @@
+# sweetCaptcha Javascript SDK
+
 ### What's this?
 
 sweetCaptcha is a free captcha service putting the users and your website at first priority.
