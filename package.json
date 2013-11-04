@@ -8,6 +8,10 @@
     "captcha",
     "sweetcatpcha"
   ],
+  "repository" : {
+     "type" : "git"
+    , "url" : "http://github.com/sweetcaptcha/sweetcaptcha-sdk-js.git"
+  },
   "scripts": {
     "test": "make test"
   },
