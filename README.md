@@ -16,6 +16,12 @@ See a live demo [here](http://sweetcaptcha.com/?ref=github-js-demo)
 3. Init and include the SDK in your code `var sweetcaptcha = new require('sweetcaptcha')(app_id, app_key, app_secret)`
 4. Follow the example and enjoy your sweetCaptcha
 
+### Public methods
+
+1. `sweetcaptcha.api('get_html', function(err, html){ ... })`
+2. `sweetcaptcha.api('check', {sckey: formSckey, scvalue: formScvalue}, function(err, valid) { ... })`
+3. `sweetcaptcha.api('test', function(err, response) { ... })`
+
 ### Test
 
 `make test`
@@ -24,4 +30,4 @@ See a live demo [here](http://sweetcaptcha.com/?ref=github-js-demo)
 
 Visit our [website](http://sweetcaptcha.com/?ref=github-js-support) for more information
 
-*Updated November 4, 2013*
+*Updated November 5, 2013*
