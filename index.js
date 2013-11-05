@@ -1,6 +1,6 @@
 var request = require('superagent');
 
-module.exports = function(id, key, secret, api) {
+module.exports = function(id, key, secret, url) {
 
   // init
   (function(id, key, secret, api)
@@ -8,9 +8,18 @@ module.exports = function(id, key, secret, api) {
       this.id = id;
       this.key = key;
       this.secret = secret;
-      this.api = api || 'http://www.sweetcaptcha.com/api.php';
+      this.url = url || 'http://www.sweetcaptcha.com/api.php';
     }
-  ).call(this, id, key, secret, api);
+  ).call(this, id, key, secret, url);
+
+
+  this.health = function(callback) {
+    request
+      .get(this.url.replace('api.php', 'status'))
+      .end(function(response){
+        callback(null, response.body);
+      });
+  }
 
 
   this.api = function(method, params, callback) {
@@ -30,7 +39,7 @@ module.exports = function(id, key, secret, api) {
     }
 
     request
-      .post(this.api)
+      .post(this.url)
       .send(_params)
       .end(function(err, response) {
         if (err) return callback(err);

@@ -8,9 +8,9 @@
     "captcha",
     "sweetcatpcha"
   ],
-  "repository" : {
-     "type" : "git"
-    , "url" : "http://github.com/sweetcaptcha/sweetcaptcha-sdk-js.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sweetcaptcha/sweetcaptcha-sdk-js.git"
   },
   "scripts": {
     "test": "make test"
@@ -21,6 +21,8 @@
     "superagent": "~0.15.7"
   },
   "devDependencies": {
-    "mocha": "~1.13.0"
+    "mocha": "~1.13.0",
+    "expect.js": "~0.2.0",
+    "should": "~2.0.2"
   }
 }
