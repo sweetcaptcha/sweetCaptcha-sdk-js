@@ -7,11 +7,11 @@ This is a new and fresh graphical captcha focused on enhanced user experience, s
 
 ![SweetCaptcha](https://s3.amazonaws.com/sweetcaptcha/sweetcaptcha-preview.png)
 
-See a live demo [here](http://sweetcaptcha.com/?ref=github-js-demo)
+See a live demo [here](http://sweetcaptcha.com/?ref=github-js)
 
 ### Installation
 
-1. Sign up your website at [http://sweetcaptcha.com](http://sweetcaptcha.com/?ref=github-js-signup) and get your credentials
+1. Sign up your website at [http://sweetcaptcha.com](http://sweetcaptcha.com/?ref=github-js) and get your credentials
 2. NPM install the SDK using `npm install --save sweetcaptcha`
 3. Init and include the SDK in your code `var sweetcaptcha = new require('sweetcaptcha')(app_id, app_key, app_secret)`
 4. Follow the example and enjoy your sweetCaptcha
@@ -28,6 +28,6 @@ See a live demo [here](http://sweetcaptcha.com/?ref=github-js-demo)
 
 ### Support and Contact
 
-Visit our [website](http://sweetcaptcha.com/?ref=github-js-support) for more information
+Visit our [website](http://sweetcaptcha.com/?ref=github-js) for more information
 
 *Updated November 5, 2013*
