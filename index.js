@@ -27,6 +27,7 @@ module.exports = function(id, key, secret, url) {
         app_id: this.id
       , app_key: this.key
       , method: method
+      , platform: 'js-sdk'
     }
 
     if (typeof params === "function") {
