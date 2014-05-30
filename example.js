@@ -1,4 +1,4 @@
-var sweetcaptcha = new require('sweetcaptcha')(1000, 'appkey', 'appsecret');
+var sweetcaptcha = new require('sweetcaptcha')(appId, appKey, appSecret); // your sweetCaptcha application credentials, see https://sweetcatpcha.com/accounts/signin
 
 // Get your captcha
 
