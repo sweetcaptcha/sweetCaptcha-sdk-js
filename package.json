@@ -1,6 +1,6 @@
 {
   "name": "sweetcaptcha",
-  "version": "0.0.2",
+  "version": "0.0.2-1",
   "description": "SweetCaptcha Javascript Node SDK",
   "main": "index.js",
   "homepage": "http://www.sweetcaptcha.com",
