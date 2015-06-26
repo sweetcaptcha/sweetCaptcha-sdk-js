@@ -30,4 +30,4 @@ See a live demo [here](http://sweetcaptcha.com/?ref=github-js)
 
 Visit our [website](http://sweetcaptcha.com/?ref=github-js) for more information
 
-*Updated November 5, 2013*
+*Updated June 26, 2015*
