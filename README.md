@@ -19,7 +19,7 @@ See a live demo [here](http://sweetcaptcha.com/?ref=github-js)
 ### Public methods
 
 1. `sweetcaptcha.api('get_html', function(err, html){ ... })`
-2. `sweetcaptcha.api('check', {sckey: formSckey, scvalue: formScvalue}, function(err, valid) { ... })`
+2. `sweetcaptcha.api('check', {sckey: formSckey, scvalue: formScvalue}, function(err, response) { return callback(err, (!err && response==='true')) })`
 3. `sweetcaptcha.api('test', function(err, response) { ... })`
 
 ### Test
